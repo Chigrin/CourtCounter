@@ -28,15 +28,13 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:autoLink="web"
-                    android:clickable="true"
                     android:gravity="center"
                     android:padding="8dp"
-                    android:text="@string/link"
+                    android:text="@string/ChicagoBulls"
                     android:textColor="#660000"
-                    android:textColorLink="#660000"
                     android:textSize="24sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:onClick="ChicagoBulls"/>
 
                 <TextView
                     android:id="@+id/team_a_score"
@@ -91,10 +89,11 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:padding="8dp"
-                    android:text="Team B"
+                    android:text="@string/MiamiHeat"
                     android:textColor="#660000"
                     android:textSize="24sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:onClick="MiamiHeat"/>
 
                 <TextView
                     android:id="@+id/team_b_score"

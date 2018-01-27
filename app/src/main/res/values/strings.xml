@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Court Counter</string>
-    <string name="link"><a href="https://www.google.pl/">Team A</a></string>
-</resources>
+    <string name="ChicagoBulls"><u>Chicago Bulls</u></string>
+    <string name="MiamiHeat"><u>Miami Heat</u></string>
+    </resources>
